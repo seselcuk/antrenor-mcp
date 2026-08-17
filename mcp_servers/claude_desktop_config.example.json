@@ -1,0 +1,17 @@
+{
+  "_comment": "Kopyalayıp ~/Library/Application Support/Claude/claude_desktop_config.json içine koy. <REPO_PATH> yerine bu repo'nun mutlak yolunu yaz (örn: /Users/YOU/projects/antrenor-mcp).",
+  "mcpServers": {
+    "garmin": {
+      "command": "<REPO_PATH>/.venv/bin/python",
+      "args": ["<REPO_PATH>/mcp_servers/garmin/server.py"]
+    },
+    "pain": {
+      "command": "<REPO_PATH>/.venv/bin/python",
+      "args": ["<REPO_PATH>/mcp_servers/pain/server.py"]
+    },
+    "coach-rules": {
+      "command": "<REPO_PATH>/.venv/bin/python",
+      "args": ["<REPO_PATH>/mcp_servers/coach_rules/server.py"]
+    }
+  }
+}
